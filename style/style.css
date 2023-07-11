@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+	--fonte-destaque: 'Oswald', sans-serif;
+	--fonte-padrao: 'Roboto Slab', serif;
+}
+
+body {
+	background-color: rgb(157, 157, 157);
+	font-family: var(--fonte-padrao);
+	text-align: center;
+}
+
+header {
+	margin: -8px -8px 8px -8px;
+	padding: 5px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: var(--fonte-destaque);
+}
+
+h3 {
+	margin: 10px;
+	padding: 0px 10px;
+	display: inline;
+}
+
+main > div {
+	margin: 3px;
+	padding: 3px;
+}
+
+div#resultado-div {
+	margin: auto;
+	background-color: gray;
+	border: 2px solid black;
+	width: max-content;
+}
+
+img {
+	border: 2px solid black;
+}
+
+input#calcular {
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid black;
+	font-family: var(--fonte-destaque);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input#calcular:hover {
+	margin: 8px;
+	border: 3px solid black;
+	background-color: #ffd7d7;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}

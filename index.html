@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora Bhaskara</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script src="script/script.js"></script>
+</head>
+<body>
+	<header>
+			<h1>Calculadora - Fórmula de Bhaskara</h1>
+	</header>
+	<main>
+		<div id="interface">
+			<h2>Fórmula de Bhaskara</h2>
+			<img src="img/formula-equacao.png" alt="Formula de Bhaskara">
+			<h2>Fórmula de Delta</h2>
+			<img src="img/formula-delta.jpg" alt="Formula de Delta">
+		</div>
+		<div id="calculadora">
+			<input type="number" name="numero-a" id="numero-a" placeholder="Digite o A">
+			<input type="number" name="numero-b" id="numero-b" placeholder="Digite o B">
+			<input type="number" name="numero-c" id="numero-c" placeholder="Digite o C">
+			<br>
+			<input type="submit" value="Resultado" id="calcular" onclick="calcular()">
+		</div>
+		<div id="resultado-div">
+			<h3 id="delta-texto">Δ: </h3>
+			<h3 id="x1-texto">X1: </h3>
+			<h3 id="x2-texto">X2: </h3>
+			<br>
+			<h3 id="informacao"></h3>
+		</div>
+	</main>
+	<footer>
+		<p>Desenvolvedor - MenryHenes</p>
+	</footer>
+</body>
+</html>
